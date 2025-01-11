@@ -46,7 +46,7 @@ enhance, and redistribute as you see fit.
 
 ## Releases
 
-### 2.0.4
+### 2.0.5
 Updated to match Home Assistant's new device constants in 2025
 
 ### 2.0.3
