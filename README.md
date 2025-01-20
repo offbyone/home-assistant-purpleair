@@ -1,4 +1,4 @@
-## Local Purple Air Integration
+# Local Purple Air Integration
 This is an integration for home assistant that works integrates with local
 polling on your PurpleAir devices on your local network.
 
@@ -7,14 +7,26 @@ _Code adapted from https://github.com/johnboiles/home-assistant-purpleair_
 It creates one device per Purple Air device registered and several sensors
 for each several readings.
 
-### Installation
+## Installation
+
+### From HACS
+
+1. Install HACS if you haven't already (see [installation guide](https://hacs.netlify.com/docs/installation/manual)).
+2. Add custom repository `https://github.com/offbyone/home-assistant-purpleair` as "Integration" in the settings tab of HACS.
+3. Find and install "Local PurpleAir Integration" intergration in HACS's "Integrations" tab.
+4. Restart your Home Assistant.
+5. Add "Local PurpleAir Integration" integration
+
+### Manual
 
 Simply copy the `/purpleair` directory in to your config's
 `custom_components` directory (you may need to create it), restart Home
 Assistant, and add the integration via the UI (it's simple!).
 
+## Usage
+
 To register a new purple air device:
-1. Add "Purple Air" Integration.
+1. Add the "Purple Air" Integration in Home Assistant's "Configuration -> Integrations" tab.
 2. Enter the IP address of your local purple air device
 3. Give it a name.
 
