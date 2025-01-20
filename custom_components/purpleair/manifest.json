@@ -10,5 +10,6 @@
   "zeroconf": [],
   "homekit": {},
   "dependencies": [],
-  "codeowners": ["@gibwar", "@catchdave", "@offbyone"]
+  "codeowners": ["@gibwar", "@catchdave", "@offbyone"],
+  "issue_tracker": "https://github.com/offbyone/home-assistant-purpleair/issues"
 }
