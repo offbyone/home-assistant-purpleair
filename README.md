@@ -11,7 +11,7 @@ for each several readings.
 
 ### From HACS
 
-1. Install HACS if you haven't already (see [installation guide](https://hacs.netlify.com/docs/installation/manual)).
+1. Install HACS if you haven't already (see [installation guide](https://www.hacs.xyz/docs/use/)).
 2. Add custom repository `https://github.com/offbyone/home-assistant-purpleair` as "Integration" in the settings tab of HACS.
 3. Find and install "Local PurpleAir Integration" intergration in HACS's "Integrations" tab.
 4. Restart your Home Assistant.
