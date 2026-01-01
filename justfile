@@ -14,9 +14,10 @@ ensure-uv:
         echo "Installing uv..."
         curl -LsSf https://astral.sh/uv/install.sh | sh
     fi
+    uv venv
 
 compile-deps:
-    uv pip compile dev-requirements.in -o dev-requirements.txt
+    uv pip compile --python-platform=linux dev-requirements.in -o dev-requirements.txt
 
 install-deps:
     uv pip install -r dev-requirements.txt
