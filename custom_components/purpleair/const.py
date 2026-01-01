@@ -52,6 +52,10 @@ HUMIDITY_ADJUSTMENT = (
     +4
 )  # From PurpleAir javascript: `(hum = parseInt(hum) + 4) > 100 && (hum = 100)`
 
+# Configuration keys
+CONF_TEMP_OFFSET = "temp_offset"
+CONF_HUMIDITY_OFFSET = "humidity_offset"
+
 LOCAL_SCAN_INTERVAL = 30
 LOCAL_URL_FORMAT = "http://{0}/json?live=false"
 

@@ -1,15 +1,15 @@
 {
   "domain": "purpleair",
   "name": "PurpleAir (Local)",
-  "version": "2.1.0",
-  "iot_class": "local_polling",
+  "codeowners": ["@gibwar", "@catchdave", "@offbyone"],
   "config_flow": true,
+  "dependencies": [],
   "documentation": "https://github.com/offbyone/home-assistant-purpleair",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/offbyone/home-assistant-purpleair/issues",
   "requirements": [],
   "ssdp": [],
-  "zeroconf": [],
-  "homekit": {},
-  "dependencies": [],
-  "codeowners": ["@gibwar", "@catchdave", "@offbyone"],
-  "issue_tracker": "https://github.com/offbyone/home-assistant-purpleair/issues"
+  "version": "2.1.0",
+  "zeroconf": []
 }
