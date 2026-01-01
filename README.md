@@ -58,6 +58,9 @@ enhance, and redistribute as you see fit.
 
 ## Releases
 
+### 2.1.0
+Change the PM and humidity sensor types: https://github.com/offbyone/home-assistant-purpleair/issues/8
+
 ### 2.0.6
 Updated to fix https://github.com/offbyone/home-assistant-purpleair/issues/5
 
